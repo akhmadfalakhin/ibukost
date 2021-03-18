@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Mamikos</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-inverse fixed-top"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/icon/logo-mamikos.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cari Kosan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-iklan" href="#">Pasang Iklan</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-login my-2 my-sm-0" type="submit">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <section class="page-banner" data-aos="fade-up">
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-12">
+              <h4 class="banner-title">Mau Cari Kosan?</h4>
+              <p class="banner-subtitle">
+                Dapatkan informasi kos murah, kos bebas, bayar bulanan dan info
+                lainnya di Mamikos.
+              </p>
+            </div>
+            <div class="col-lg-7 col-12">
+              <img
+                src="image/bg-banner.png"
+                class="img-fluid"
+                alt="background-banner"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- search -->
+
+    <section class="home-search" data-aos="fade-up">
+      <div class="container">
+        <div class="search-header">
+          <div class="search-title text-center">
+            <p>
+              Cari Kos-kosan <span>ngga perlu</span><span> keluar rumah</span>
+            </p>
+          </div>
+          <div class="search-wrapper"></div>
+        </div>
+        <div class="search">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-5">
+              <div class="btn btn-search-location">
+                <label for=""> Nama Tempat atau Kota </label>
+                <div class="loacation">
+                  <select name="" id="" class="form-search">
+                    <option value="">Yogyakarta</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div
+                class="btn btn-filter align-items-center justify-content-center"
+              >
+                <img src="image/icon/filter.png" alt="" />
+                <p>Filter</p>
+              </div>
+            </div>
+            <div class="col-3">
+              <a href="">
+                <div class="btn btn-search">
+                  <p>Cari Sekarang</p>
+                  <img src="image/arrow-right.png" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rekomendasi -->
+    <section class="recomendation" style="z-index: 1000" data-aos="fade-up">
+      <div class="container">
+        <div class="recomendation-header">
+          <div class="recomendation-title">
+            <h2>Rekomendasi kos di</h2>
+            <div class="area-selector">
+              <select name="userLocation" id="userLocation">
+                <option value="" class="locationOption">Jakarta</option>
+                <option value="" class="locationOption">Surabaya</option>
+                <option value="" class="locationOption">Yogyakarta</option>
+                <option value="" class="locationOption">Bandung</option>
+              </select>
+            </div>
+          </div>
+          <div class="recomendation-all">
+            <div class="recomendation-link">Lihat Semua</div>
+          </div>
+        </div>
+
+        <div class="recomendation-kost">
+          <div class="kost-card">
+            <div class="row">
+              <div
+                class="col-lg-4 kost-card-item"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                <a href="details.html" class="components-kost">
+                  <div class="kost-thumbnail">
+                    <div
+                      class="kost-image"
+                      style="background-image: url('image/kost-3.png')"
+                    ></div>
+                  </div>
+                  <div class="room-labels">
+                    <label class="tag-gender text-center"> Putra </label>
+                  </div>
+                  <div class="kost-text">Kos Ibu Basuki</div>
+                  <div class="kost-location">
+                    <img
+                      src="image/icon/icon-location.svg"
+                      alt=""
+                      class="icon-location"
+                    />
+                    <div class="kost-address">Jl. Kaliurang Km 10</div>
+                  </div>
+                  <div class="kost-facilities">
+                    <span class="kost-facilities-text">
+                      K. Mandi dalam . Kloset Duduk . Kasur . Bantal . Guling...
+                    </span>
+                  </div>
+                  <div class="kost-meta">
+                    <div class="kost-price">
+                      Rp 1.000.000 <span>/ Bulan</span>
+                    </div>
+                    <div class="kost-rating">
+                      <img src="image/icon/star.svg" alt="" />
+                      <span>4.5</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="col-lg-4 kost-card-item"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a href="details.html" class="components-kost">
+                  <div class="kost-thumbnail">
+                    <div
+                      class="kost-image"
+                      style="background-image: url('image/kost-2.png')"
+                    ></div>
+                  </div>
+                  <div class="room-labels">
+                    <label class="tag-gender text-center"> Putri </label>
+                  </div>
+                  <div class="kost-text">Kost Ibu Tini</div>
+                  <div class="kost-location">
+                    <img
+                      src="image/icon/icon-location.svg"
+                      alt=""
+                      class="icon-location"
+                    />
+                    <div class="kost-address">Jl. Kaliurang Km 8</div>
+                  </div>
+                  <div class="kost-facilities">
+                    <span class="kost-facilities-text">
+                      K. Mandi dalam . Kloset Duduk . Kasur . Bantal . Guling...
+                    </span>
+                  </div>
+                  <div class="kost-meta">
+                    <div class="kost-price">
+                      Rp 700.000 <span>/ Bulan</span>
+                    </div>
+                    <div class="kost-rating">
+                      <img src="image/icon/star.svg" alt="" />
+                      <span>4.3</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="col-lg-4 kost-card-item"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <a href="details.html" class="components-kost">
+                  <div class="kost-thumbnail">
+                    <div
+                      class="kost-image"
+                      style="background-image: url('image/kost-1.png')"
+                    ></div>
+                  </div>
+                  <div class="room-labels">
+                    <label class="tag-gender text-center"> Campur </label>
+                  </div>
+                  <div class="kost-text">Kost Ibu Tini</div>
+                  <div class="kost-location">
+                    <img
+                      src="image/icon/icon-location.svg"
+                      alt=""
+                      class="icon-location"
+                    />
+                    <div class="kost-address">Jl. Kaliurang Km 6</div>
+                  </div>
+                  <div class="kost-facilities">
+                    <span class="kost-facilities-text">
+                      K. Mandi dalam . Kloset Duduk . Kasur . Bantal . Guling...
+                    </span>
+                  </div>
+                  <div class="kost-meta">
+                    <div class="kost-price">
+                      Rp 700.000 <span>/ Bulan</span>
+                    </div>
+                    <div class="kost-rating">
+                      <img src="image/icon/star.svg" alt="" />
+                      <span>4.0</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- download -->
+    <section
+      class="download-app"
+      style="background-image: url(image/Union.png)"
+    >
+      <div class="container">
+        <div class="content-download">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-right">
+              <div class="image-download">
+                <img src="image/Layer x0020 1.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+              <div
+                class="d-flex flex-column pl-4 justify-content-center align-content-center"
+              >
+                <span class="download-title">Download Mamikos App</span>
+                <span class="download-subtitle"
+                  >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Labore, fuga ea, facilis blanditiis sequi quas perferendis
+                  iure et numquam delectus harum adipisci corporis sunt repellat
+                  facere temporibus! Nisi, optio a!</span
+                >
+                <div class="download">
+                  <img src="image/playsotre.png" alt="" />
+                  <img src="image/appstore.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Promo -->
+
+    <section
+      class="content-promo"
+      style="background-image: url(image/icon/Union.png)"
+    >
+      <div class="container">
+        <div
+          class="justify-content-center align-items-center text-center"
+          data-aos="fade-up"
+        >
+          <div class="promo-header">
+            <div class="promo-title">
+              <h2>Punya Kos kosan?</h2>
+            </div>
+            <div class="promo-subtitle">
+              <p>Pasang iklan kos kamu di Mamikos, <span>Gratis</span></p>
+              <a href="#" class="promo-url">
+                <div class="btn btn-promo">Pasang Iklan</div>
+              </a>
+            </div>
+          </div>
+          <div class="promo-image">
+            <img src="image/iklan.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="product-identity">
+              <img src="image/logo-footer.png" alt="" />
+              <div class="product-value">
+                <h4>Dapatkan "info kos murah" hanya di MamiKos App.</h4>
+                <h4>Mau "Sewa Kost Murah"?</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="site-links">
+              <h5>Ibukos</h5>
+
+              <a href="#">
+                <h6>Tentang Kami</h6>
+              </a>
+              <a href="#">
+                <h6>Job Ibukos</h6>
+              </a>
+              <a href="#">
+                <h6>Promosikan Kos Kamu</h6>
+              </a>
+              <a href="#">
+                <h6>Pusat Bantuan</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="site-links">
+              <h5>Ibukos</h5>
+
+              <a href="#">
+                <h6>Kebijakan Privasi</h6>
+              </a>
+              <a href="#">
+                <h6>Syarat dan ketentuan umum</h6>
+              </a>
+              <div class="contact">
+                <h5>Hubungi Kami</h5>
+
+                <div class="link-medsos">
+                  <a href="#">
+                    <img src="image/icon/facebook.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="image/icon/twiter.png" alt="" />
+                  </a>
+                  <a href="#">
+                    <img src="image/icon/instagram.png" alt="" />
+                  </a>
+                </div>
+                <div class="link-contact">
+                  <div class="link-whats-app">
+                    <img src="image/icon/whatsapp.png" alt="" />
+                    <div class="whatsapp-list">
+                      <p>Customer Service (whatsapp only)</p>
+                      <div class="no-whatsapp">
+                        <p>0812-3233-1011</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <a href="">
+                    <div class="link-email">
+                      <img src="image/icon/envelope.png" alt="" />
+                      <p>cs@ibukos.com</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p>© 2021 Ibukos.com, All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

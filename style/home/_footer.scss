@@ -1,0 +1,115 @@
+.footer {
+  margin-top: 50px;
+  
+  .product-identity {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      height: 50px;
+      width: 300px;
+    }
+
+    .product-value {
+      margin-top: 20px;
+
+      h4 {
+        font-size: 18px;
+        font-weight: 400;
+        color: #3f4a3c;
+      }
+    }
+  }
+
+  .site-links {
+    display: flex;
+    flex-direction: column;
+
+    h5 {
+      font-weight: 600;
+      font-size: 18px;
+
+      color: #3f4a3c;
+    }
+
+    a {
+      text-decoration: none;
+      color: #3f4a3c;
+      padding-top: 7px;
+
+      h6 {
+        font-weight: 400;
+        font-size: 18px;
+        color: #3f4a3c;
+      }
+    }
+    .contact {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+
+      .link-medsos {
+        display: flex;
+
+        a {
+          margin-right: 10px;
+          margin-bottom: 16px;
+        }
+
+        img {
+          width: 25px;
+          height: 25px;
+        }
+      }
+      .link-contact {
+        display: flex;
+        flex-direction: column;
+
+        .link-email {
+          display: flex;
+
+          img {
+            height: 50px;
+            width: 50px;
+            margin-right: 20px;
+          }
+          p {
+            font-weight: normal;
+            font-size: 18px;
+            padding-top: 10px;
+            color: #3f4a3c;
+          }
+        }
+        .link-whats-app {
+          display: flex;
+          cursor: pointer;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+          }
+          .whatsapp-list {
+            padding-top: 10px;
+          }
+
+          .no-whatsapp {
+            p {
+                width: 120px;
+              border-bottom: 1px solid #3f4a3c;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-copyright{
+      margin-top: 20px;
+      border-top: 1px solid #E0E0E0;
+      text-align: right;
+
+      p{
+          padding: 28px 0;
+      }
+  }
+}

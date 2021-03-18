@@ -1,0 +1,58 @@
+.wp-help-menu {
+  background-color: #267ff9;
+  margin-top: -2rem;
+  margin-bottom: 32.25px;
+  position: relative;
+}
+
+.help-container {
+  overflow-x: auto;
+}
+
+.wp-help-menu .help-container .help {
+  padding: 0 10px;
+  display: inline-flex;
+}
+
+.wp-help-menu-item {
+  height: 60px;
+  text-decoration: none;
+  padding: 0.6rem;
+  width: 200px;
+}
+.wp-help-menu-item:first-child {
+  padding-left: 0;
+}
+
+.wp-help-menu-item h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.content img {
+  width: 300px;
+}
+.wp-help-chara-title {
+  font-weight: 600;
+  margin-top: 23px;
+}
+
+footer hr {
+  color: #267ff9;
+  display: block;
+  margin-top: 2.1rem;
+  margin-bottom: 2.1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.product-identity-footer {
+  width: 100%;
+}
+.product-identity-footer img {
+  width: 250px;
+}

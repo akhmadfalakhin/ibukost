@@ -1,0 +1,627 @@
+.content-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+
+  .detail-content {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+
+    .detail-container-kost-overview {
+      display: block;
+      padding: 32px 0;
+    }
+  }
+
+  .kost-title-container {
+    display: flex;
+    padding-right: 0;
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  .kost-name {
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  .kost-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #303030;
+  }
+
+  .detail-kost-overview {
+    display: flex;
+    margin-top: 4px;
+    align-items: center;
+
+    .detail-kost-overview-section {
+      display: flex;
+      align-items: center;
+    }
+    .detail-kost-overview-gender {
+      display: flex;
+      padding: 2px 8px;
+      align-items: center;
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      background: #0081fe;
+      border-radius: 4px;
+    }
+
+    .detail-kost-overview-divider {
+      display: flex;
+      width: 4px;
+      height: 100%;
+      margin: 0 8px;
+      font-size: 14px;
+      color: 303030;
+      align-items: center;
+      justify-content: center;
+    }
+    .detail-kost-overview-rating {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .detail-kost-overview-rating-img {
+        width: 20px;
+        height: auto;
+      }
+
+      .detail-kost-overview-rating-text {
+        margin-left: 4px;
+        font-weight: 600;
+        font-size: 18px;
+        color: #303030;
+      }
+      .detail-kost-overview-rating-review {
+        margin-left: 4px;
+        font-size: 18px;
+        color: #949494;
+      }
+    }
+    .detail-kost-overview-area {
+      font-size: 18px;
+      font-weight: 600;
+      color: #303030;
+    }
+    .detail-kost-availability-text {
+      font-size: 18px;
+      font-weight: 600;
+      color: #303030;
+    }
+    .detail-kost-availability-text-danger {
+      color: #da3438;
+      font-weight: 600;
+    }
+  }
+  .detail-kost-additional-widget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    align-items: center;
+
+    .detail-kost-additional-widget-last-update {
+      font-size: 18px;
+      color: #949494;
+    }
+
+    .detail-kost-overview-widget {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .btn-group {
+      display: flex;
+
+      .btn {
+        position: relative;
+        float: left;
+      }
+    }
+
+    .detail-kost-additional-widget-outer {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        width: 16px;
+        height: 16px;
+      }
+
+      .detail-kost-additional-widget-label {
+        font-weight: normal;
+        font-size: 18px;
+        margin-left: 8px;
+        color: #949494;
+      }
+    }
+  }
+  .owner-information {
+    display: block;
+    padding: 48px 0;
+    border-top: 1px solid #0081fe;
+
+    .owner-information-profile {
+      display: flex;
+      height: 56px;
+      align-items: center;
+
+      .owner-information-profile-img {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .owner-information-profile-data {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+
+        .owner-information-name {
+          font-weight: 500;
+          font-size: 25px;
+
+          color: #303030;
+        }
+
+        .owner-information-type {
+          font-size: 15px;
+          font-weight: 300;
+          color: #949494;
+        }
+      }
+    }
+  }
+  .kost-desc-container {
+    padding-top: 0;
+
+    .kost-desc {
+      display: flex;
+      margin-bottom: 2rem;
+      flex-direction: column;
+
+      .label-desc {
+        font-size: 18px;
+        color: #303030;
+        font-weight: 500;
+      }
+
+      span {
+        font-weight: 300;
+        font-size: 15px;
+        color: #949494;
+      }
+    }
+  }
+
+  .detail-container-kost-benefit {
+    display: flex;
+    padding: 32px 0;
+    flex-direction: column;
+    border-top: 1px solid #0081fe;
+    border-bottom: 1px solid #0081fe;
+
+    h4 {
+      font-weight: 500;
+      font-size: 23px;
+
+      color: #303030;
+    }
+
+    span {
+      font-weight: normal;
+      font-size: 18px;
+      color: #303030;
+      margin-bottom: 10px;
+    }
+
+    .detail-kost-benefit {
+      display: flex;
+    }
+
+    .detail-kost-benefit-img {
+      display: flex;
+      align-items: flex-start;
+      margin-right: 16px;
+
+      img {
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .detail-kost-benefit-information {
+      display: flex;
+      flex-direction: column;
+
+      .detail-kost-benefit-information-title {
+        font-weight: 500;
+        font-size: 20px;
+        color: #303030;
+      }
+
+      .detail-kost-benefit-information-subtitle {
+        font-weight: 300;
+        font-size: 15px;
+        color: #949494;
+      }
+    }
+  }
+
+  .detail-container-others {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .kost-facilities-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+
+    .label-normalize {
+      font-weight: 500;
+      font-size: 23px;
+      color: #303030;
+    }
+
+    .fac-box {
+      margin-top: 1rem;
+
+      padding-left: 0;
+      padding-right: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .fac-detail {
+      margin-bottom: 1.2rem;
+      display: flex;
+      align-items: center;
+
+      .fac-detail-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 0.8rem;
+      }
+
+      .text-normalize {
+        font-weight: 300;
+        font-size: 15px;
+        color: #303030;
+      }
+    }
+
+    .fac-box-header {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding-left: 0;
+      padding-right: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .fac-detail-header {
+      display: flex;
+      padding-left: 0;
+      margin-bottom: 1.3rem;
+      align-items: center;
+      .fac-detail-header-icon {
+        height: 30px;
+        width: 30px;
+        margin-right: 0.8rem;
+      }
+      .text-normalize {
+        font-weight: 300;
+        font-size: 15px;
+        color: #303030;
+      }
+    }
+  }
+  .btn-detail-fac {
+    background-color: #0081fe;
+    color: #fff;
+    outline: none;
+  }
+
+  .detail-container-kost-regulations {
+    display: flex;
+    padding: 32px 0;
+    flex-direction: column;
+    border-top: 1px solid #0081fe;
+
+    h4 {
+      font-weight: 500;
+      font-size: 23px;
+
+      color: #303030;
+    }
+
+    span {
+      font-weight: normal;
+      font-size: 18px;
+      color: #303030;
+      margin-bottom: 10px;
+    }
+
+    .detail-kost-regulations {
+      display: flex;
+    }
+
+    .detail-kost-regulations-img {
+      display: flex;
+      align-items: flex-start;
+      margin-right: 16px;
+
+      img {
+        margin-top: 5px;
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    .detail-kost-regulations-information {
+      display: flex;
+      flex-direction: column;
+
+      .detail-kost-regulations-information-title {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #303030;
+      }
+
+      .detail-kost-regulations-information-subtitle {
+        font-weight: 300;
+        font-size: 15px;
+        color: #949494;
+      }
+    }
+  }
+
+  .kost-location {
+    display: block;
+
+    .kost-location-title {
+      font-weight: 500;
+      font-size: 23px;
+      padding-bottom: 1rem;
+      color: #303030;
+    }
+    .kost-location-map {
+      padding-top: 20px;
+    }
+  }
+
+  .kost-review {
+    display: block;
+    padding: 48px 0;
+
+    .kost-review-title {
+      font-weight: 500;
+      font-size: 25px;
+      color: #303030;
+    }
+
+    .kost-review-users-feedback {
+      margin: 20px 0;
+    }
+
+    .users-feedback {
+      display: block;
+    }
+
+    .user-feedback-section {
+      display: flex;
+      margin: 20px 0 0;
+      flex-direction: column;
+
+      .user-feedback-header {
+        display: flex;
+
+        .user-feedback-photo {
+          width: 50px;
+          height: 50px;
+          margin: 0 16px 0 0;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+
+        .user-feedback-profil {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+
+          .user-feedback-profile-name {
+            font-weight: 600;
+            font-size: 18px;
+            color: #303030;
+          }
+
+          .user-feedback-profile-time {
+            font-weight: 400;
+            font-size: 15px;
+            color: #757575;
+          }
+        }
+      }
+
+      .user-feedback-body {
+        display: flex;
+        margin: 16px 0 0 65px;
+        flex-direction: column;
+
+        .user-feedback-description {
+          font-weight: 400;
+          font-size: 15px;
+          color: #757575;
+        }
+
+        .owner-feedback {
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          margin-top: 24px;
+          border-left: 1px solid #0081fe;
+
+          .owner-feedback-title {
+            font-weight: 600;
+            font-size: 18px;
+            color: #303030;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          .owner-feedback-date {
+            font-weight: 400;
+            font-size: 15px;
+            color: #757575;
+          }
+          .owner-feedback-description {
+            margin: 12px 0 0;
+            font-weight: 400;
+            font-size: 15px;
+            color: #757575;
+          }
+        }
+      }
+    }
+  }
+
+  .kost-report-container {
+    position: relative;
+
+    .kost-report {
+      display: flex;
+      color: #fff;
+      justify-content: space-between;
+      background-color: #0081fe;
+      padding: 8px 10px;
+      margin-top: 2rem;
+
+      .stretch {
+        font-weight: 400;
+        font-size: 13px;
+        color: #ffffff;
+      }
+
+      .kost-report-request {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .text-report {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .kost-area-container {
+    margin: 40px 0;
+
+    .kost-area-card {
+      margin-bottom: 15px;
+    }
+    .kost-area-title {
+      font-weight: 500;
+      font-size: 23px;
+      color: #303030;
+    }
+
+    .kost-area-card-item {
+      width: 100%;
+      height: 100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      border-radius: 8px;
+
+      h4 {
+        font-weight: 600;
+        font-size: 15px;
+        color: #fdfdfd;
+      }
+    }
+
+    .text-bottom {
+      position: absolute;
+      bottom: 0;
+      padding-right: 30px;
+      width: 100%;
+    }
+  }
+
+  #priceCard {
+    padding: 0;
+  }
+  .booking-card {
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #0081fe;
+
+    .booking-card-info {
+      padding: 20px;
+    }
+
+    .booking-card-info-price {
+      display: flex;
+      font-size: 16px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #303030;
+
+      .booking-card-info-price-amount {
+        margin-right: 4px;
+        font-weight: 500;
+        font-size: 30px;
+        color: #303030;
+      }
+
+      .booking-card-info-price-amount-unit {
+        font-weight: 400;
+        font-size: 20px;
+        color: #303030;
+      }
+    }
+
+    .booking-card-info-select {
+      .booking-checkin-input {
+        display: flex;
+        border: 1px solid #949494;
+      }
+    }
+    .booking-card-booking {
+      padding: 0;
+
+      .btn-booking {
+        width: 100%;
+        color: #fff;
+        background-color: #0081fe;
+        border: 1px solid #0081fe;
+      }
+
+      .text-booking-title {
+        font-weight: 500;
+        font-size: 25px;
+        color: #ffffff;
+      }
+    }
+  }
+}

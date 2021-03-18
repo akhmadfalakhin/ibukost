@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+.navbar-detail {
+  background-color: #267ff9;
+  height: 60px;
+
+  .navbar-brand {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+
+    &:hover{
+        color: #fff !important;
+    }
+  }
+  .nav-link {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff !important;
+  }
+  .profile-picture{
+    height: 35px;
+  }
+}
+
+#breadcrumb {
+  .breadcrumbs {
+    margin-top: 55px;
+    padding: 10px 0 0;
+
+    .breadcrumbs-item {
+      display: inline-block;
+
+      .breadcrumb-link {
+           font-family: Roboto;
+        font-size: 15px;
+        text-decoration: none;
+        color: #c4c4c4;
+
+        &:hover {
+          text-decoration: underline;
+          color: #949494;
+        }
+      }
+
+      .breadcrumb-link-active {
+        font-family: Roboto;
+        color: #303030;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+
+        &:hover{
+            color: #303030 !important;
+        }
+      }
+    }
+  }
+}
+.breadcrumbs-item:not(:last-of-type)::after {
+  content: "\203a";
+  margin: 0 5px;
+  color: #c4c4c4;
+}
+
+.card-price-footer{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 -3px 6px 0 hsl(0deg 4% 66% / 16%);
+
+  
+}
+
+.wp-help-title {
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+}

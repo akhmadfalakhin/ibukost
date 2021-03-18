@@ -1,0 +1,20 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "font";
+@import "navbar";
+@import "global";
+
+@import "home/banner";
+@import "home/search";
+@import "home/recomendation";
+@import "home/download";
+@import "home/promo";
+@import "home/footer";
+
+@import "detail-kost/navbar";
+@import "detail-kost/detailPhoto";
+@import "detail-kost/content-container";
+
+@import "detail-kost/menu";
+@import "help/content";
